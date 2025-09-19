@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    
+
+
+}
+.principal{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0fccfcc;
+    height:100vh;
+    width: 100vw;
+    text-align: center;
+
+
+}
+.caixa-maior{
+    background-color: rgb(235, 215, 189);
+    width:90%; 
+    max-width: 45rem;
+    opacity:0.8;
+    padding: 1.25rem;
+    border-radius: 1.563rem;
+}
+
+.titulo{
+    text-transform: uppercase;
+    background-color: rgb(0, 0, 0);
+    color: white;
+   margin-bottom: 2rem;
+   text-align: center;
+   margin-top: 2rem;
+   border-radius: 1.25rem;
+   
+}
+.input-cidade, .pesquisar{
+    border: none;
+    outline: none;
+    padding: 0.265rem;
+    border-radius: 1.25rem;
+    font-size: 1.4rem;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    width: 20rem;
+    text-align: center;
+
+}
+
+.pesquisar{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    background-color:  black;
+    color: white;
+    width: 12rem;
+
+}
+
+
+.pesquisar:active{
+   background-color: gray;
+
+}
+
+.caixa-menor{
+    background-color: white;
+    margin-bottom: 2rem;
+    border-radius: 2rem ;
+
+}
+
+.cidade, .tempo, .descricao, .umidade{
+    font-size: 1.8rem;
+    margin-bottom: 0.3rem;
+}
+
+.img{
+    width: 5rem;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
